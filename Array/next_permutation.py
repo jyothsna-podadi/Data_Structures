@@ -4,7 +4,8 @@ Problem: Find the next lexicographical permutation
 Time Complexity: O(n)
 Space Complexity: O(1)
 """
-
+# Handles case when array is in descending order
+# Example: [3,2,1] -> [1,2,3]
 
 
 def nextPermutation(arr):
@@ -39,5 +40,6 @@ def nextPermutation(arr):
 if __name__=="__main__":
     arr=list(map(int,input().split()))
     nextPermutation(arr)
+
 
     print(" ".join(map(str,arr)))
