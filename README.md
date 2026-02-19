@@ -1,7 +1,9 @@
 # Data_Structures
 
 ### 🔢 Array Problems
-- Reverse an array (in-place)
-- Move zeros to the end while preserving order
+- Reverse array
+- Move zeros to end
+- Rotate array by D steps
 - Second largest element
+- Next permutation (lexicographic order)
 
