@@ -1,9 +1,10 @@
 # Data_Structures
 
 ### 🔢 Array Problems
+- Second largest element
+- Smallest Element
 - Reverse array
 - Move zeros to end
 - Rotate array by D steps
-- Second largest element
 - Next permutation (lexicographic order)
 
