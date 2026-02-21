@@ -29,10 +29,11 @@ def getSecondLargest(arr):
             second_largest=largest
             largest=arr[i]
         
-        elif arr[i]<largest and arr[i]>second_largest:
+        elif largest > arr[i] > second_largest:
             second_largest=arr[i]
     return second_largest
 
 if __name__=="__main__":
     arr=list(map(int,input().split()))
     print(getSecondLargest(arr))
+
